@@ -1,0 +1,103 @@
+html,body {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  justify-content: space-between;
+}
+
+.brand-logo {
+  height: 80px;
+}
+
+ol {
+  justify-items: end;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.arrow-img {
+  height: 30px;
+}
+
+.jar-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.jar-item h3 {
+  text-align: center;
+}
+
+.jar-item img{
+  height: 700px;
+  width: 600px;
+  border: 2px solid gray;
+}
+
+.carring {
+  width:400px;
+  height: 240px;
+  margin-top: 40px;
+}
+.carring-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+
+.what-lorem-two {
+  margin-top: 60px;
+}
+
+.last-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.last-section img {
+  width: 400px;
+}
+
+main .bottom {
+  margin: 16px;
+  height: 8px;
+  width: 100%;
+  background-color: maroon;
+}
+
+footer {
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.lorem-blue h1 {
+  color: blue;
+}
+
+.lorem-red h3 {
+  color: maroon;
+}
